@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudBridge AWS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header-bg text-white">
+        <div class="container d-flex justify-content-start align-items-center">
+            <img src="img/logo.png" alt="CloudBridge AWS Logo" class="logo">
+            <nav class="navbar navbar-expand-lg w-100">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="mision.html" class="nav-link">Misión, Visión y Valores</a></li>
+                        <li class="nav-item"><a href="servicios.html" class="nav-link">Servicios</a></li>
+                        <li class="nav-item"><a href="propuesta.html" class="nav-link">Propuesta Comercial</a></li>
+                        <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="contact-section">
+        <h2 class="section-title">Información de Contacto</h2>
+        <p>Estamos aquí para ayudarte en tu viaje hacia la nube. Contacta con nosotros para más información o para programar una cita:</p>
+        <div class="contact-info">
+            <ul>
+                <li>Email: contacto@cloudbridgeaws.com</li>
+                <li>Teléfono: +123 456 7890</li>
+            </ul>
+            <img src="img/contact.png" alt="Contacto" class="contact-image">
+        </div>
+    
+        <section id="formulario-contacto" class="contact-form">
+            <h3>Envíanos un mensaje</h3>
+            <form action="formulario.js" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer-bg text-center text-white py-3">
+        <p>© 2024 CloudBridge AWS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
